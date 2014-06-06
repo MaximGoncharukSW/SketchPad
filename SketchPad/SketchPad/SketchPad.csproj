@@ -53,13 +53,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Account.cs" />
     <Compile Include="AccountsGrid.xaml.cs">
       <DependentUpon>AccountsGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddAccount.xaml.cs">
+      <DependentUpon>AddAccount.xaml</DependentUpon>
     </Compile>
     <Compile Include="ScheduleGrid.xaml.cs">
       <DependentUpon>ScheduleGrid.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Serializer.cs" />
     <Page Include="AccountsGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddAccount.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

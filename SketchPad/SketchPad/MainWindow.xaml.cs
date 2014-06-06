@@ -25,7 +25,10 @@ namespace SketchPad
         {
             InitializeComponent( );
 
-            Accounts.Content = new AccountsGrid( );
+            AccountsGrid accGrid = new AccountsGrid( );
+            Accounts.Content = accGrid;
+            this.Closing += accGrid.Close;
+
             Schedule.Content = new ScheduleGrid( );
         }
 
