@@ -25,35 +25,27 @@ namespace SketchPad
         {
             InitializeComponent( );
 
-            HideScriptErrors( browser, true );
+            browser.Navigated += BrowserManager.Navigated;
+            BrowserManager.HideScriptErrors( browser, true );
         }
 
         private void btnSearch_Click( object sender, RoutedEventArgs e )
         {
-            string transport = ( rbtnSuburban.IsChecked == true ) ? "suburban" : "train";
-            string when = ( rbtnNow.IsChecked == true ) ? "" : "на+всi+днi";
-            string url = String.Format( "http://rasp.yandex.ua/search/{0}/?toName={1}&fromName={2}&when={3}", transport, txtToName.Text, txtFromName.Text, when  );
-
-            browser.Source = new Uri( url );
+            BrowserManager.Search( browser, rbtnSuburban.IsChecked, rbtnNow.IsChecked, txtToName.Text, txtFromName.Text );
         }
 
-        public void HideScriptErrors( WebBrowser wb, bool hide )
+        private void btnClear_Click( object sender, RoutedEventArgs e )
         {
-            var fiComWebBrowser = typeof( WebBrowser ).GetField( "_axIWebBrowser2", BindingFlags.Instance | BindingFlags.NonPublic );
-            if( fiComWebBrowser == null )
-                return;
-            var objComWebBrowser = fiComWebBrowser.GetValue( wb );
-            if( objComWebBrowser == null )
-            {
-                wb.Loaded += ( o, s ) => HideScriptErrors( wb, hide ); //In case we are to early
-                return;
-            }
-            objComWebBrowser.GetType( ).InvokeMember( "Silent", BindingFlags.SetProperty, null, objComWebBrowser, new object[ ] { hide } );
+            txtFromName.Text = "";
+            txtToName.Text = "";
+            rbtnNow.IsChecked = true;
+            rbtnSuburban.IsChecked = true;
+            browser.Source = null;
         }
 
-        private void browser_Navigated( object sender, NavigationEventArgs e )
+        private void tabControl_SelectionChanged( object sender, SelectionChangedEventArgs e )
         {
-            browser.Focus( );
+            this.Title = ( ( TabItem )( ( TabControl )sender ).SelectedItem ).Header.ToString();
         }
     }
 }

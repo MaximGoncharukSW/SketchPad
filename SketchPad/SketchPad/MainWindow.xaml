@@ -1,13 +1,13 @@
 ﻿<Window x:Class="SketchPad.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="628.506" FontWeight="ExtraLight" FontSize="14">
+        Title="" Height="350" Width="708.536" FontWeight="ExtraLight" FontSize="14">
     <Grid>
-        <TabControl HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <TabItem Header="Аккаунты">
+        <TabControl x:Name="tabControl" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="tabControl_SelectionChanged">
+            <TabItem x:Name="Accounts" Header="Аккаунты">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
-            <TabItem Header="Расписание поездов">
+            <TabItem x:Name="Schedule" Header="Расписание поездов">
                 <Grid Background="#FFE5E5E5">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="40"/>
@@ -27,8 +27,9 @@
                             <RadioButton x:Name="rbtnAll" Content="Все дни" VerticalAlignment="Center" Margin="2"/>
                         </StackPanel>
                         <Button x:Name="btnSearch" Margin="2" Width="100" Content="Искать" Click="btnSearch_Click"/>
+                        <Button x:Name="btnClear" Margin="2" Width="100" Content="Очистить" Click="btnClear_Click"/>
                     </StackPanel>
-                    <WebBrowser x:Name="browser" Grid.Row="1" Navigated="browser_Navigated"></WebBrowser>
+                    <WebBrowser x:Name="browser" Grid.Row="1"></WebBrowser>
                 </Grid>
             </TabItem>
         </TabControl>
