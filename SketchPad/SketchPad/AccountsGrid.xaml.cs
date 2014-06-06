@@ -44,7 +44,23 @@ namespace SketchPad
 
         void accounts_CollectionChanged( object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e )
         {
-            var newAccount = e.NewItems[ 0 ] as Account;
+            if( e.Action == System.Collections.Specialized.NotifyCollectionChangedAction.Add )
+                AddToList( e.NewItems[ 0 ] );
+            else if( e.Action == System.Collections.Specialized.NotifyCollectionChangedAction.Remove )
+                RemoveFromList( e.OldItems[ 0 ] );
+        }
+
+        private void RemoveFromList( object p )
+        {
+            var newAccount = p as Account;
+
+            lstAccount.SelectedIndex = 0;
+            lstAccount.Items.Remove( newAccount.Name );
+        }
+
+        private void AddToList( object p )
+        {
+            var newAccount = p as Account;
             lstAccount.Items.Add( newAccount.Name );
         }
 
@@ -63,6 +79,14 @@ namespace SketchPad
         private void lstAccount_SelectionChanged( object sender, SelectionChangedEventArgs e )
         {
             ListBox list = sender as ListBox;
+            if( list.Items.Count == 0 )
+            {
+                tbSiteName.Text = "";
+                tbLogin.Text = "";
+                tbPassword.Text = "";
+                tbEmail.Text = "";
+                return;
+            }
 
             string selectedName = list.SelectedItem.ToString();
 
@@ -74,6 +98,16 @@ namespace SketchPad
             tbLogin.Text = currentAccount.Login;
             tbPassword.Text = currentAccount.Password;
             tbEmail.Text = currentAccount.Email;
+        }
+
+        private void btnDelete_Click( object sender, RoutedEventArgs e )
+        {
+            string selctedName = lstAccount.SelectedItem.ToString( );
+
+            var removedAcc = ( from ac in accounts
+                               where ac.Name == selctedName
+                               select ac ).Single( );
+            accounts.Remove( removedAcc );
         }
     }
 }

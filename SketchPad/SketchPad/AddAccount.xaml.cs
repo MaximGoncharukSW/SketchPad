@@ -35,13 +35,17 @@ namespace SketchPad
             Account.Password = txtPassword.Text;
             Account.Email = txtEmail.Text;
 
-            DialogResult = true;
-            this.Close( );
+            DoClose( true );
         }
 
         private void btnCancel_Click( object sender, RoutedEventArgs e )
         {
-            DialogResult = false;
+            DoClose( false );
+        }
+
+        private void DoClose( bool result )
+        {
+            DialogResult = result;
             this.Close( );
         }
     }

@@ -17,7 +17,7 @@
         <ListBox Grid.Row="1" x:Name="lstAccount" Margin="5" SelectionChanged="lstAccount_SelectionChanged"/>
         <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Button x:Name="btnAdd" Content="Добавить запись" Margin="10" FontSize="14" FontWeight="ExtraLight" Click="btnAdd_Click"/>
-            <Button x:Name="btnDelete" Content="Удалить запись" Margin="10" FontSize="14" FontWeight="ExtraLight"/>
+            <Button x:Name="btnDelete" Content="Удалить запись" Margin="10" FontSize="14" FontWeight="ExtraLight" Click="btnDelete_Click"/>
         </StackPanel>
         <GroupBox Grid.Row="1" Grid.Column="1" Margin="5" Header="Информация" FontStyle="Italic" FontSize="14" FontWeight="ExtraLight">
             <Grid Margin="5,10,5,5">

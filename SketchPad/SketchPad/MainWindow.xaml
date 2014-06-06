@@ -1,12 +1,11 @@
 ﻿<Window x:Class="SketchPad.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="" Height="350" Width="708.536" FontWeight="ExtraLight" FontSize="14">
+        Title="" Height="350" Width="708.536" FontWeight="ExtraLight" FontSize="14" ResizeMode="NoResize">
     <Grid>
         <TabControl x:Name="tabControl" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="tabControl_SelectionChanged">
             <TabItem x:Name="Accounts" Header="Аккаунты"/>
             <TabItem x:Name="Schedule" Header="Расписание поездов"/>
         </TabControl>
-
     </Grid>
 </Window>
