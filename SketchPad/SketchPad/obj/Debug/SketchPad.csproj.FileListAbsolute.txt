@@ -11,3 +11,7 @@ C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.csproj.GenerateResource.Cache
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.exe
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.pdb
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\ScheduleGrid.baml
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\ScheduleGrid.g.cs
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\AccountsGrid.baml
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\AccountsGrid.g.cs

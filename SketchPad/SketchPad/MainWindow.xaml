@@ -4,34 +4,8 @@
         Title="" Height="350" Width="708.536" FontWeight="ExtraLight" FontSize="14">
     <Grid>
         <TabControl x:Name="tabControl" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="tabControl_SelectionChanged">
-            <TabItem x:Name="Accounts" Header="Аккаунты">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem x:Name="Schedule" Header="Расписание поездов">
-                <Grid Background="#FFE5E5E5">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="40"/>
-                        <RowDefinition Height="250*"/>
-                    </Grid.RowDefinitions>
-                    <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
-                        <TextBlock Text="Откуда" VerticalAlignment="Center" Margin="5"></TextBlock>
-                        <TextBox x:Name="txtFromName" Width="100" VerticalAlignment="Center" Margin="5"/>
-                        <TextBlock Text="Куда" VerticalAlignment="Center" Margin="5"/>
-                        <TextBox x:Name="txtToName" VerticalAlignment="Center" Width="100" Margin="5"/>
-                        <StackPanel VerticalAlignment="Center">
-                            <RadioButton x:Name="rbtnSuburban" Content="Электричка" VerticalAlignment="Center" Margin="2" IsChecked="True"/>
-                            <RadioButton x:Name="rbtnTrain" Content="Поезд" VerticalAlignment="Center" Margin="2"/>
-                        </StackPanel>
-                        <StackPanel VerticalAlignment="Center" Margin="0,0,10,0">
-                            <RadioButton x:Name="rbtnNow" Content="Сегодня" VerticalAlignment="Center" Margin="2" IsChecked="True"/>
-                            <RadioButton x:Name="rbtnAll" Content="Все дни" VerticalAlignment="Center" Margin="2"/>
-                        </StackPanel>
-                        <Button x:Name="btnSearch" Margin="2" Width="100" Content="Искать" Click="btnSearch_Click"/>
-                        <Button x:Name="btnClear" Margin="2" Width="100" Content="Очистить" Click="btnClear_Click"/>
-                    </StackPanel>
-                    <WebBrowser x:Name="browser" Grid.Row="1"></WebBrowser>
-                </Grid>
-            </TabItem>
+            <TabItem x:Name="Accounts" Header="Аккаунты"/>
+            <TabItem x:Name="Schedule" Header="Расписание поездов"/>
         </TabControl>
 
     </Grid>
