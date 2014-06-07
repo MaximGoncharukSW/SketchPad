@@ -5,7 +5,7 @@
     <Grid>
         <TabControl x:Name="tabControl" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="tabControl_SelectionChanged">
             <TabItem x:Name="Accounts" Header="Аккаунты"/>
-            <TabItem x:Name="Schedule" Header="Расписание поездов"/>
+            <TabItem x:Name="Schedule" Header="Расписание"/>
         </TabControl>
     </Grid>
 </Window>
