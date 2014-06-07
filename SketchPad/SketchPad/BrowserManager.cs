@@ -6,6 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 
+///////////////////
+//browser manager//
+///////////////////
 namespace SketchPad
 {
     class BrowserManager
