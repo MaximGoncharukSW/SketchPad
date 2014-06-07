@@ -24,9 +24,8 @@ namespace SketchPad
             objComWebBrowser.GetType( ).InvokeMember( "Silent", BindingFlags.SetProperty, null, objComWebBrowser, new object[ ] { hide } );
         }
 
-        public static void Search( WebBrowser wb, bool? isSuburban, bool? isNow, string toName, string fromName )
+        public static void Search( WebBrowser wb, string transport, bool? isNow, string toName, string fromName )
         {
-            string transport = ( isSuburban == true ) ? "suburban" : "train";
             string when = ( isNow == true ) ? "" : "на+всi+днi";
             string url = String.Format( "http://rasp.yandex.ua/search/{0}/?toName={1}&fromName={2}&when={3}", transport, toName, fromName, when );
 

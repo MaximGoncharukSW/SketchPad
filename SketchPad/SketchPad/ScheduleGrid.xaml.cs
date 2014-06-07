@@ -29,7 +29,17 @@ namespace SketchPad
 
         private void btnSearch_Click( object sender, RoutedEventArgs e )
         {
-            BrowserManager.Search( browser, rbtnSuburban.IsChecked, rbtnNow.IsChecked, txtToName.Text, txtFromName.Text );
+            string transport = "";
+            foreach( RadioButton item in spTransport.Children )
+            {
+                if( item.IsChecked == true )
+                {
+                    transport = item.Name;
+                    break;
+                }
+            }
+            
+            BrowserManager.Search( browser, transport, rbtnNow.IsChecked, txtToName.Text, txtFromName.Text );
         }
 
         private void btnClear_Click( object sender, RoutedEventArgs e )
@@ -37,7 +47,7 @@ namespace SketchPad
             txtFromName.Text = "";
             txtToName.Text = "";
             rbtnNow.IsChecked = true;
-            rbtnSuburban.IsChecked = true;
+            suburban.IsChecked = true;
             browser.Source = null;
         }
     }
