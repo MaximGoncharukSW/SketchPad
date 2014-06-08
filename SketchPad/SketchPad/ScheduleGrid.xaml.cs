@@ -39,7 +39,7 @@ namespace SketchPad
                 }
             }
             
-            BrowserManager.Search( browser, transport, rbtnNow.IsChecked, txtToName.Text, txtFromName.Text );
+            BrowserManager.SearchSchedule( browser, transport, rbtnNow.IsChecked, txtToName.Text, txtFromName.Text );
         }
 
         private void btnClear_Click( object sender, RoutedEventArgs e )

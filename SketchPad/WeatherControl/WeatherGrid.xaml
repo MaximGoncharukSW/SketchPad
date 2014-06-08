@@ -1,0 +1,138 @@
+﻿<UserControl x:Class="WeatherControl.WeatherGrid"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Margin="10,10,10,0">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="Hearder" Grid.Row="0" Grid.ColumnSpan="4" Text="" FontWeight="ExtraLight" FontSize="30" FontStyle="Italic" Margin="0,0,0,10"/>
+        <TextBlock x:Name="Today" Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Center" Text="Сегодня" FontWeight="ExtraLight" FontSize="20"/>
+        <TextBlock x:Name="Tomorrow" Grid.Row="1" Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Center" Text="Завтра" FontWeight="ExtraLight" FontSize="20"/>
+        <TextBlock x:Name="AfterTomorrow" Grid.Row="1" Grid.Column="3" VerticalAlignment="Top" HorizontalAlignment="Center" Text="Послезавтра" FontWeight="ExtraLight" FontSize="20"/>
+        <Grid Grid.Row="2" Grid.Column="0" Margin="0,10,0,0">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FFBBFFF6" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="1" Text="Температура" HorizontalAlignment="Center" VerticalAlignment="Top" FontStyle="Italic"/>
+            <TextBlock Grid.Row="2" Text="Облачность" HorizontalAlignment="Center" VerticalAlignment="Top" FontStyle="Italic"/>
+            <TextBlock Grid.Row="3" Text="Ветер" HorizontalAlignment="Center" VerticalAlignment="Top" FontStyle="Italic"/>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="1" Margin="0,10,0,0">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF94FFF5" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Ночь" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="Утро" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Grid.Row="0" Grid.Column="2" Text="День" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Grid.Row="0" Grid.Column="3" Text="Вечер" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+            <TextBlock x:Name="tbTodayNight" Grid.Row="1" Grid.Column="0" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbTodayMorn" Grid.Row="1" Grid.Column="1" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbTodayDay" Grid.Row="1" Grid.Column="2" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbTodayEve" Grid.Row="1" Grid.Column="3" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+            <TextBlock x:Name="tbTodayCloudy" Grid.Row="2" Grid.ColumnSpan="4" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbTodayWindy" Grid.Row="3" Grid.ColumnSpan="4" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="2" Margin="0,10,0,0">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF52FDE6" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Ночь" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="Утро" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Grid.Row="0" Grid.Column="2" Text="День" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Grid.Row="0" Grid.Column="3" Text="Вечер" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+            <TextBlock x:Name="tbTomorrowNight" Grid.Row="1" Grid.Column="0" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbTomorrowMorn" Grid.Row="1" Grid.Column="1" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbTomorrowDay" Grid.Row="1" Grid.Column="2" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbTomorrowEve" Grid.Row="1" Grid.Column="3" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+            <TextBlock x:Name="tbTomorrowCloudy" Grid.Row="2" Grid.ColumnSpan="4" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbTomorrowWindy" Grid.Row="3" Grid.ColumnSpan="4" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="3" Margin="0,10,0,0">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF40F0C0" Offset="0.611"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Ночь" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="Утро" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Grid.Row="0" Grid.Column="2" Text="День" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Grid.Row="0" Grid.Column="3" Text="Вечер" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+            <TextBlock x:Name="tbAfterTomorrowNight" Grid.Row="1" Grid.Column="0" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbAfterTomorrowMorn" Grid.Row="1" Grid.Column="1" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbAfterTomorrowDay" Grid.Row="1" Grid.Column="2" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbAfterTomorrowEve" Grid.Row="1" Grid.Column="3" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+            <TextBlock x:Name="tbAfterTomorrowCloudy" Grid.Row="2" Grid.ColumnSpan="4" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbAfterTomorrowWindy" Grid.Row="3" Grid.ColumnSpan="4" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Grid>
+    </Grid>
+</UserControl>
