@@ -35,3 +35,6 @@ C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPa
 C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.g.resources
 C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.Properties.Resources.resources
 C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.csproj.GenerateResource.Cache
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.csprojResolveAssemblyReference.cache
