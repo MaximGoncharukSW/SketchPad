@@ -47,6 +47,9 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="WeatherControl">
+      <HintPath>..\WeatherControl\bin\Debug\WeatherControl.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -67,7 +70,6 @@
       <DependentUpon>ScheduleGrid.xaml</DependentUpon>
     </Compile>
     <Compile Include="Serializer.cs" />
-    <Compile Include="Weather.cs" />
     <Page Include="AccountsGrid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

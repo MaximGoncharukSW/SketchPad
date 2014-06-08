@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WeatherControl;
 
 namespace SketchPad
 {
@@ -29,14 +30,11 @@ namespace SketchPad
             AccountsGrid accGrid = new AccountsGrid( );
             Accounts.Content = accGrid;
             this.Closing += accGrid.Close;
-            this.SizeChanged += accGrid.UpdateWeather;
-           
 
             Schedule.Content = new ScheduleGrid( );
 
             Weather wf = new Weather( );
             wf.UpdateWeather( );
-
         }
 
         private void tabControl_SelectionChanged( object sender, SelectionChangedEventArgs e )

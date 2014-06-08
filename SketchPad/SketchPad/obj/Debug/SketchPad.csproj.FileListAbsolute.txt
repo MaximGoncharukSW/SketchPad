@@ -38,3 +38,5 @@ C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPa
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.csprojResolveAssemblyReference.cache
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\bin\Debug\WeatherControl.dll
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\bin\Debug\WeatherControl.pdb

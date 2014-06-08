@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SketchPad", "SketchPad\SketchPad.csproj", "{48FEA030-FE9D-4DD2-8841-D84965157601}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherControl", "WeatherControl\WeatherControl.csproj", "{716EDD88-02CA-4441-BA1C-0A7CF702D6A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{48FEA030-FE9D-4DD2-8841-D84965157601}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48FEA030-FE9D-4DD2-8841-D84965157601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48FEA030-FE9D-4DD2-8841-D84965157601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716EDD88-02CA-4441-BA1C-0A7CF702D6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716EDD88-02CA-4441-BA1C-0A7CF702D6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716EDD88-02CA-4441-BA1C-0A7CF702D6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716EDD88-02CA-4441-BA1C-0A7CF702D6A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
