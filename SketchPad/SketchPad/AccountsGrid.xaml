@@ -19,7 +19,7 @@
         <TextBlock Grid.Row="1" Text="Выберите учетную запись:" Margin="20,24,0,24" VerticalAlignment="Center" FontSize="16" FontWeight="ExtraLight" Height="21"/>
         <ListBox Grid.Row="2" x:Name="lstAccount" Margin="5" SelectionChanged="lstAccount_SelectionChanged"/>
         <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button x:Name="btnAdd" Content="Добавить запись" Margin="10" FontSize="14" FontWeight="ExtraLight" Click="btnAdd_Click"/>
+            <Button x:Name="btnAdd" Content="Добавить запись" Margin="10" FontSize="14" FontWeight="Thin" Click="btnAdd_Click" />
             <Button x:Name="btnDelete" Content="Удалить запись" Margin="10" FontSize="14" FontWeight="ExtraLight" Click="btnDelete_Click"/>
         </StackPanel>
         <GroupBox Grid.Row="2" Grid.Column="1" Margin="5" Header="Информация" FontStyle="Italic" FontSize="14" FontWeight="ExtraLight" HorizontalContentAlignment="Center" HorizontalAlignment="Center">
