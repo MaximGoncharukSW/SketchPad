@@ -57,9 +57,9 @@ namespace WeatherControl
             }
         }
 
-        public Weather( )
+        public Weather( string city )
         {
-            name = "";
+            name = city;
             conditions = new List<Conditions>( );
         }
 
@@ -70,10 +70,9 @@ namespace WeatherControl
 
             WebClient client = new WebClient( );
             client.Encoding = Encoding.UTF8;
-            string response = client.DownloadString( "http://api.openweathermap.org/data/2.5/forecast/daily?type=json&q=Makeevka&units=metric&cnt=3&lang=ru" );
+            string response = client.DownloadString( String.Format("http://api.openweathermap.org/data/2.5/forecast/daily?type=json&q={0}&units=metric&cnt=3&lang=ru", name ) );
             JObject ob = JObject.Parse( response );
 
-            name = ob[ "city" ][ "name" ].ToString( );
             conditions = new List<Conditions>( );
 
             int maxDays = ob[ "list" ].Count( );

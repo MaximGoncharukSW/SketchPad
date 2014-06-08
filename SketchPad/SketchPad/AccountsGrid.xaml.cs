@@ -28,7 +28,7 @@ namespace SketchPad
         {
             InitializeComponent( );
 
-            spWeather.Children.Add( new WeatherGrid( ) );
+            spWeather.Children.Add( new WeatherGrid( "Макеевка" ) );
 
             accounts = ( ObservableCollection<Account> )Serializer.Deserialize( Properties.Resources.PathToData );
 

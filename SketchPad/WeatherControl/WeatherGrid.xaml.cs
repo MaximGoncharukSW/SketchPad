@@ -26,10 +26,10 @@ namespace WeatherControl
         private DispatcherTimer dispatcherTimer;
         private event EventHandler WeatherUpdated;
 
-        public WeatherGrid( )
+        public WeatherGrid( string city )
         {
             InitializeComponent( );
-            currentWeather = new Weather( );
+            currentWeather = new Weather( city );
             WeatherUpdated += WeatherGrid_WeatherUpdated;
 
             UpdateWeather( null, new EventArgs( ) );
@@ -48,6 +48,8 @@ namespace WeatherControl
 
         private void WeatherGrid_WeatherUpdated( object sender, EventArgs e )
         {
+            Hearder.Text = currentWeather.Name;
+
             tbTodayNight.Text = currentWeather.Conditions[ 0 ].NightTemperature;
             tbTodayMorn.Text = currentWeather.Conditions[ 0 ].MorningTemperature;
             tbTodayDay.Text = currentWeather.Conditions[ 0 ].DayTemperature;

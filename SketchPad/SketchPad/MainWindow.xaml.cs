@@ -32,9 +32,6 @@ namespace SketchPad
             this.Closing += accGrid.Close;
 
             Schedule.Content = new ScheduleGrid( );
-
-            Weather wf = new Weather( );
-            wf.UpdateWeather( );
         }
 
         private void tabControl_SelectionChanged( object sender, SelectionChangedEventArgs e )

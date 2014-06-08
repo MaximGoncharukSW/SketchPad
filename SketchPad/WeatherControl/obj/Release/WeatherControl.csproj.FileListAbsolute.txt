@@ -10,3 +10,4 @@ C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\Wea
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\WeatherControl.csproj.GenerateResource.Cache
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\WeatherControl.dll
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\WeatherControl.pdb
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\WeatherControl.csprojResolveAssemblyReference.cache
