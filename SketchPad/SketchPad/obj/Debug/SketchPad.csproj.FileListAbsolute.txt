@@ -1,7 +1,6 @@
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\bin\Debug\SketchPad.exe.config
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\bin\Debug\SketchPad.exe
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\bin\Debug\SketchPad.pdb
-C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.csprojResolveAssemblyReference.cache
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\MainWindow.baml
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\MainWindow.g.cs
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\App.g.cs
@@ -36,5 +35,3 @@ C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPa
 C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.g.resources
 C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.Properties.Resources.resources
 C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.csproj.GenerateResource.Cache
-C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\WeatherGrid.baml
-C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\WeatherGrid.g.cs
