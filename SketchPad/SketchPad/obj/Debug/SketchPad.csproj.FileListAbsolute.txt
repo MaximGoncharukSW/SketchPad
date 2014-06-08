@@ -36,3 +36,5 @@ C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPa
 C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.g.resources
 C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.Properties.Resources.resources
 C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.csproj.GenerateResource.Cache
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\StyleForApp.baml
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\App.baml
