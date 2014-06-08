@@ -9,21 +9,12 @@ SketchPad
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\App.xaml
-41768548291
+5-125354720
 
 15957357360
 148148223
-AccountsGrid.xaml;AddAccount.xaml;MainWindow.xaml;ScheduleGrid.xaml;
-=======
-C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\App.xaml
-5-125354720
-
-15147427795
-12-1401562060
 AccountsGrid.xaml;AddAccount.xaml;MainWindow.xaml;ScheduleGrid.xaml;StyleForApp.xaml;
->>>>>>> fe11fb54776eeb423ee686965ca2fdfb59c866d2
 
 False
 

@@ -45,3 +45,5 @@ C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\bin\Debug\WeatherCon
 C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\StyleForApp.baml
 C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\App.baml
 >>>>>>> fe11fb54776eeb423ee686965ca2fdfb59c866d2
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\StyleForApp.baml
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\App.baml
