@@ -17,8 +17,8 @@
         <TextBlock Grid.Row="0" Text="Выберите учетную запись:" Margin="20,24,0,24" VerticalAlignment="Center" FontSize="16" FontWeight="ExtraLight" Height="21"/>
         <ListBox Grid.Row="1" x:Name="lstAccount" Margin="5" SelectionChanged="lstAccount_SelectionChanged"/>
         <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button x:Name="btnAdd" Content="Добавить запись" Margin="10" FontSize="14" FontWeight="ExtraLight" Click="btnAdd_Click" Width="120"/>
-            <Button x:Name="btnDelete" Content="Удалить запись" Margin="10" FontSize="14" FontWeight="ExtraLight" Click="btnDelete_Click" Width="120"/>
+            <Button x:Name="btnAdd" Content="Добавить запись" Margin="10" FontSize="14" FontWeight="ExtraLight" Click="btnAdd_Click"/>
+            <Button x:Name="btnDelete" Content="Удалить запись" Margin="10" FontSize="14" FontWeight="ExtraLight" Click="btnDelete_Click"/>
         </StackPanel>
         <GroupBox Grid.Row="1" Grid.Column="1" Margin="5" Header="Информация" FontStyle="Italic" FontSize="14" FontWeight="ExtraLight">
             <Grid Margin="5,10,5,5">
@@ -32,14 +32,14 @@
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <TextBlock Grid.Row="0" Text="Адрес сайта:" HorizontalAlignment="Right" Margin="0, 0, 10, 0" Foreground="Black"/>
-                <TextBlock Grid.Row="1" Text="Логин:" HorizontalAlignment="Right" Margin="0, 0, 10, 0" Foreground="Black"/>
-                <TextBlock Grid.Row="2" Text="Пароль:" HorizontalAlignment="Right" Margin="0, 0, 10, 0" Foreground="Black"/>
-                <TextBlock Grid.Row="3" Text="Электронная почта:" HorizontalAlignment="Right" Margin="0, 0, 10, 0" Foreground="Black"/>
-                <TextBlock x:Name="tbSiteName" Grid.Row="0" Grid.Column="1" Width="150" Text="" HorizontalAlignment="Left" Margin="10, 0, 0, 0" Foreground="Black"/>
-                <TextBlock x:Name="tbLogin" Grid.Row="1" Grid.Column="1" Width="150" Text="" HorizontalAlignment="Left" Margin="10, 0, 0, 0" Foreground="Black"/>
-                <TextBlock x:Name="tbPassword" Grid.Row="2" Grid.Column="1" Width="150" Text="" HorizontalAlignment="Left" Margin="10, 0, 0, 0" Foreground="Black"/>
-                <TextBlock x:Name="tbEmail" Grid.Row="3" Grid.Column="1" Width="150" Text="" HorizontalAlignment="Left" Margin="10, 0, 0, 0" Foreground="Black" />
+                <TextBlock Grid.Row="0" Text="Адрес сайта:" HorizontalAlignment="Right" Margin="0, 0, 10, 0"/>
+                <TextBlock Grid.Row="1" Text="Логин:" HorizontalAlignment="Right" Margin="0, 0, 10, 0"/>
+                <TextBlock Grid.Row="2" Text="Пароль:" HorizontalAlignment="Right" Margin="0, 0, 10, 0"/>
+                <TextBlock Grid.Row="3" Text="Электронная почта:" HorizontalAlignment="Right" Margin="0, 0, 10, 0"/>
+                <TextBlock x:Name="tbSiteName" Grid.Row="0" Grid.Column="1" Width="150" Text="" HorizontalAlignment="Left" Margin="10, 0, 0, 0"/>
+                <TextBlock x:Name="tbLogin" Grid.Row="1" Grid.Column="1" Width="150" Text="" HorizontalAlignment="Left" Margin="10, 0, 0, 0"/>
+                <TextBlock x:Name="tbPassword" Grid.Row="2" Grid.Column="1" Width="150" Text="" HorizontalAlignment="Left" Margin="10, 0, 0, 0"/>
+                <TextBlock x:Name="tbEmail" Grid.Row="3" Grid.Column="1" Width="150" Text="" HorizontalAlignment="Left" Margin="10, 0, 0, 0"/>
             </Grid>
         </GroupBox>
     </Grid>

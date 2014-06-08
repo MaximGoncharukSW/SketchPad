@@ -17,13 +17,13 @@
             <TextBlock Text="Куда" VerticalAlignment="Center" Margin="5"/>
             <TextBox x:Name="txtToName" VerticalAlignment="Center" Width="100" Margin="5"/>
             <StackPanel x:Name="spTransport" VerticalAlignment="Center" >
-                <RadioButton x:Name="suburban" Content="Электричка" VerticalAlignment="Center" Margin="2" IsChecked="True" Foreground="Black"/>
-                <RadioButton x:Name="train" Content="Поезд" VerticalAlignment="Center" Margin="2" Foreground="Black"/>
-                <RadioButton x:Name="bus" Content="Автобус" VerticalAlignment="Center" Margin="2" Foreground="Black"/>
+                <RadioButton x:Name="suburban" Content="Электричка" VerticalAlignment="Center" Margin="2" IsChecked="True"/>
+                <RadioButton x:Name="train" Content="Поезд" VerticalAlignment="Center" Margin="2"/>
+                <RadioButton x:Name="bus" Content="Автобус" VerticalAlignment="Center" Margin="2"/>
             </StackPanel>
             <StackPanel VerticalAlignment="Center" Margin="0,0,10,0">
-                <RadioButton x:Name="rbtnNow" Content="Сегодня" VerticalAlignment="Center" Margin="2" IsChecked="True" Foreground="Black"/>
-                <RadioButton x:Name="rbtnAll" Content="Все дни" VerticalAlignment="Center" Margin="2" Foreground="Black"/>
+                <RadioButton x:Name="rbtnNow" Content="Сегодня" VerticalAlignment="Center" Margin="2" IsChecked="True"/>
+                <RadioButton x:Name="rbtnAll" Content="Все дни" VerticalAlignment="Center" Margin="2"/>
             </StackPanel>
             <Button x:Name="btnSearch" Margin="2" Width="100" Height="40" Content="Искать" VerticalAlignment="Center" Click="btnSearch_Click"/>
             <Button x:Name="btnClear" Margin="2" Width="100" Height="40" Content="Очистить" VerticalAlignment="Center" Click="btnClear_Click"/>
