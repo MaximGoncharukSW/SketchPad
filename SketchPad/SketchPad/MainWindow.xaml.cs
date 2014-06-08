@@ -29,6 +29,8 @@ namespace SketchPad
             AccountsGrid accGrid = new AccountsGrid( );
             Accounts.Content = accGrid;
             this.Closing += accGrid.Close;
+            this.SizeChanged += accGrid.UpdateWeather;
+           
 
             Schedule.Content = new ScheduleGrid( );
         }

@@ -64,6 +64,9 @@
       <DependentUpon>ScheduleGrid.xaml</DependentUpon>
     </Compile>
     <Compile Include="Serializer.cs" />
+    <Compile Include="WeatherGrid.xaml.cs">
+      <DependentUpon>WeatherGrid.xaml</DependentUpon>
+    </Compile>
     <Page Include="AccountsGrid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -86,6 +89,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="ScheduleGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WeatherGrid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -109,5 +109,11 @@ namespace SketchPad
                                select ac ).Single( );
             accounts.Remove( removedAcc );
         }
+
+        internal void UpdateWeather( object sender, SizeChangedEventArgs e )
+        {
+            if( ( ( Window )sender ).WindowState == WindowState.Maximized )
+                BrowserManager.SearchWeather( browser );
+        }
     }
 }
