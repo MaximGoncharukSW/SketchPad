@@ -10,3 +10,15 @@ C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Debug\Weath
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Debug\WeatherControl.csproj.GenerateResource.Cache
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Debug\WeatherControl.dll
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Debug\WeatherControl.pdb
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\WeatherControl\bin\Debug\WeatherControl.dll
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\WeatherControl\bin\Debug\WeatherControl.pdb
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\WeatherControl\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\WeatherControl\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Debug\WeatherGrid.baml
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Debug\WeatherGrid.g.cs
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Debug\WeatherControl_MarkupCompile.cache
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Debug\WeatherControl.g.resources
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Debug\WeatherControl.Properties.Resources.resources
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Debug\WeatherControl.csproj.GenerateResource.Cache
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Debug\WeatherControl.dll
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Debug\WeatherControl.pdb
