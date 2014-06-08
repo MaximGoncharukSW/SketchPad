@@ -17,9 +17,9 @@
             <TextBlock Text="Куда" VerticalAlignment="Center" Margin="5"/>
             <TextBox x:Name="txtToName" VerticalAlignment="Center" Width="100" Margin="5"/>
             <StackPanel x:Name="spTransport" VerticalAlignment="Center" >
-                <RadioButton x:Name="suburban" Content="Электричка" VerticalAlignment="Center" Margin="2" IsChecked="True"/>
-                <RadioButton x:Name="train" Content="Поезд" VerticalAlignment="Center" Margin="2"/>
-                <RadioButton x:Name="bus" Content="Автобус" VerticalAlignment="Center" Margin="2"/>
+                <RadioButton x:Name="suburban" Content="Электричка" VerticalAlignment="Center" Margin="0,0,1,0" IsChecked="True"/>
+                <RadioButton x:Name="train" Content="Поезд" Margin="0,0,1,0" VerticalAlignment="Center" />
+                <RadioButton x:Name="bus" Content="Автобус" Margin="0,0,1,0" VerticalAlignment="Center" />
             </StackPanel>
             <StackPanel VerticalAlignment="Center" Margin="0,0,10,0">
                 <RadioButton x:Name="rbtnNow" Content="Сегодня" VerticalAlignment="Center" Margin="2" IsChecked="True"/>
