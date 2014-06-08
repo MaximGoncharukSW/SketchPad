@@ -1,0 +1,13 @@
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\bin\Release\WeatherControl.dll
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\bin\Release\WeatherControl.pdb
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\bin\Release\Newtonsoft.Json.dll
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\bin\Release\Newtonsoft.Json.xml
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\WeatherGrid.baml
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\WeatherGrid.g.cs
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\WeatherControl_MarkupCompile.cache
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\WeatherControl.g.resources
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\WeatherControl.Properties.Resources.resources
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\WeatherControl.csproj.GenerateResource.Cache
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\WeatherControl.dll
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\WeatherControl.pdb
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\WeatherControl\obj\Release\WeatherControl.csprojResolveAssemblyReference.cache

@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WeatherControl;
 
 namespace SketchPad
 {
@@ -26,6 +27,9 @@ namespace SketchPad
         public AccountsGrid( )
         {
             InitializeComponent( );
+
+            spWeather.Children.Add( new WeatherGrid( "Макеевка" ) );
+
             accounts = ( ObservableCollection<Account> )Serializer.Deserialize( Properties.Resources.PathToData );
 
             if( accounts == null )
