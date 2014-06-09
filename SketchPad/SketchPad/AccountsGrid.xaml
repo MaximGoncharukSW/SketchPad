@@ -22,7 +22,7 @@
             <Button x:Name="btnAdd" Content="Добавить запись" Margin="10" FontSize="14" FontWeight="ExtraLight" Click="btnAdd_Click"/>
             <Button x:Name="btnDelete" Content="Удалить запись" Margin="10" FontSize="14" FontWeight="ExtraLight" Click="btnDelete_Click"/>
         </StackPanel>
-        <GroupBox Grid.Row="2" Grid.Column="1" Margin="5" Header="Информация" FontStyle="Italic" FontSize="14"  HorizontalContentAlignment="Center" HorizontalAlignment="Center">
+        <GroupBox Grid.Row="2" Grid.Column="1" Margin="5" Header="Информация" FontStyle="Italic" FontSize="14"  HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch">
             <Grid Margin="5,10,5,5">
                 <Grid.RowDefinitions>
                     <RowDefinition x:Name="Url"/>
