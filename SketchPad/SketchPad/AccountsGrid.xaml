@@ -4,9 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              >
-    <Grid>
+
+    <Grid >
         <Grid.Background>
-            <ImageBrush ImageSource="Img/blur_note_glasses.jpg"/>
+            <ImageBrush ImageSource="Img/blur_note_glasses.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="241*"/>

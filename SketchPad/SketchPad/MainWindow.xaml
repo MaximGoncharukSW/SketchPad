@@ -1,7 +1,7 @@
 ﻿<Window x:Class="SketchPad.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="" Height="550" Width="746.951" FontWeight="ExtraLight" FontSize="14" MinHeight="550" MinWidth="746">
+        Title="" Height="550" Width="746.951" FontWeight="ExtraLight" FontSize="14" Icon="Img/x-office-address-book_1113.ico">
     <Grid>
         <TabControl x:Name="tabControl" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="tabControl_SelectionChanged">
             <TabItem x:Name="Accounts" Header="Аккаунты" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
