@@ -71,5 +71,10 @@ namespace WeatherControl
             tbAfterTomorrowCloudy.Text = currentWeather.Conditions[ 2 ].Cloudy;
             tbAfterTomorrowWindy.Text = currentWeather.Conditions[ 2 ].WindSpeed + "м/с";
         }
+
+        private void btnMore_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }

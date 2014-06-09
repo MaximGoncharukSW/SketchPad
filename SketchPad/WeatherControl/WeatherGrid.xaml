@@ -18,7 +18,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <TextBlock x:Name="Hearder" Grid.Row="0" Grid.ColumnSpan="2" FontWeight="ExtraLight" FontSize="30" Margin="0,0,0,10" />
-        <Button x:Name="btnMore" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2" Content="Подробнее о погоде"  Height="50"/>
+        <Button x:Name="btnMore" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2" Content="Подробнее о погоде"  Height="50" Click="btnMore_Click"/>
         <TextBlock x:Name="Today" Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Center" Text="Сегодня" FontWeight="ExtraLight" FontSize="20"/>
         <TextBlock x:Name="Tomorrow" Grid.Row="1" Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Center" Text="Завтра" FontWeight="ExtraLight" FontSize="20"/>
         <TextBlock x:Name="AfterTomorrow" Grid.Row="1" Grid.Column="3" VerticalAlignment="Top" HorizontalAlignment="Center" Text="Послезавтра" FontWeight="ExtraLight" FontSize="20"/>
