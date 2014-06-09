@@ -132,7 +132,7 @@
     <Resource Include="Img\blur_note_glasses.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Img\addressbook_5020.png" />
+    <Resource Include="Img\x-office-address-book_1113.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

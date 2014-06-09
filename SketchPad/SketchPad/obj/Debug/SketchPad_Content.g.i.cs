@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img/addressbook_5020.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img/x-office-address-book_1113.ico")]
 
 
