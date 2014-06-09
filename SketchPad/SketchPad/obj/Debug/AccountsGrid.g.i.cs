@@ -40,7 +40,7 @@ namespace SketchPad {
     public partial class AccountsGrid : System.Windows.Controls.UserControl, System.Windows.Markup.IComponentConnector {
         
         
-        #line 21 "..\..\AccountsGrid.xaml"
+        #line 22 "..\..\AccountsGrid.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.StackPanel spWeather;
         
@@ -48,7 +48,7 @@ namespace SketchPad {
         #line hidden
         
         
-        #line 23 "..\..\AccountsGrid.xaml"
+        #line 24 "..\..\AccountsGrid.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ListBox lstAccount;
         
@@ -56,7 +56,7 @@ namespace SketchPad {
         #line hidden
         
         
-        #line 25 "..\..\AccountsGrid.xaml"
+        #line 26 "..\..\AccountsGrid.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnAdd;
         
@@ -64,7 +64,7 @@ namespace SketchPad {
         #line hidden
         
         
-        #line 26 "..\..\AccountsGrid.xaml"
+        #line 27 "..\..\AccountsGrid.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnDelete;
         
@@ -72,7 +72,7 @@ namespace SketchPad {
         #line hidden
         
         
-        #line 31 "..\..\AccountsGrid.xaml"
+        #line 32 "..\..\AccountsGrid.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.RowDefinition Url;
         
@@ -80,7 +80,7 @@ namespace SketchPad {
         #line hidden
         
         
-        #line 32 "..\..\AccountsGrid.xaml"
+        #line 33 "..\..\AccountsGrid.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.RowDefinition Login;
         
@@ -88,7 +88,7 @@ namespace SketchPad {
         #line hidden
         
         
-        #line 33 "..\..\AccountsGrid.xaml"
+        #line 34 "..\..\AccountsGrid.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.RowDefinition Password;
         
@@ -96,7 +96,7 @@ namespace SketchPad {
         #line hidden
         
         
-        #line 34 "..\..\AccountsGrid.xaml"
+        #line 35 "..\..\AccountsGrid.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.RowDefinition Email;
         
@@ -104,7 +104,7 @@ namespace SketchPad {
         #line hidden
         
         
-        #line 44 "..\..\AccountsGrid.xaml"
+        #line 45 "..\..\AccountsGrid.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBlock tbSiteName;
         
@@ -112,7 +112,7 @@ namespace SketchPad {
         #line hidden
         
         
-        #line 45 "..\..\AccountsGrid.xaml"
+        #line 46 "..\..\AccountsGrid.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBlock tbLogin;
         
@@ -120,7 +120,7 @@ namespace SketchPad {
         #line hidden
         
         
-        #line 46 "..\..\AccountsGrid.xaml"
+        #line 47 "..\..\AccountsGrid.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBlock tbPassword;
         
@@ -128,7 +128,7 @@ namespace SketchPad {
         #line hidden
         
         
-        #line 47 "..\..\AccountsGrid.xaml"
+        #line 48 "..\..\AccountsGrid.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBlock tbEmail;
         
@@ -171,7 +171,7 @@ namespace SketchPad {
             case 2:
             this.lstAccount = ((System.Windows.Controls.ListBox)(target));
             
-            #line 23 "..\..\AccountsGrid.xaml"
+            #line 24 "..\..\AccountsGrid.xaml"
             this.lstAccount.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.lstAccount_SelectionChanged);
             
             #line default
@@ -180,7 +180,7 @@ namespace SketchPad {
             case 3:
             this.btnAdd = ((System.Windows.Controls.Button)(target));
             
-            #line 25 "..\..\AccountsGrid.xaml"
+            #line 26 "..\..\AccountsGrid.xaml"
             this.btnAdd.Click += new System.Windows.RoutedEventHandler(this.btnAdd_Click);
             
             #line default
@@ -189,7 +189,7 @@ namespace SketchPad {
             case 4:
             this.btnDelete = ((System.Windows.Controls.Button)(target));
             
-            #line 26 "..\..\AccountsGrid.xaml"
+            #line 27 "..\..\AccountsGrid.xaml"
             this.btnDelete.Click += new System.Windows.RoutedEventHandler(this.btnDelete_Click);
             
             #line default
