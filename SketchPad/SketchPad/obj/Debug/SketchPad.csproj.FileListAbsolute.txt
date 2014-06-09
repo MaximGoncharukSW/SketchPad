@@ -46,3 +46,5 @@ C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\bin\Debug\WeatherCon
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\bin\Debug\WeatherControl.pdb
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\SketchPad.csprojResolveAssemblyReference.cache
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\StyleForApp.baml
+C:\Users\Irina\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Debug\App.baml
