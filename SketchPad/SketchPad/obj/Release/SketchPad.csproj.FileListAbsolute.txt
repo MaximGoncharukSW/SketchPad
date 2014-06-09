@@ -20,3 +20,6 @@ C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Release\SketchPa
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Release\SketchPad.csproj.GenerateResource.Cache
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Release\SketchPad.exe
 C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Release\SketchPad.pdb
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Release\SketchPad.csprojResolveAssemblyReference.cache
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Release\StyleForApp.baml
+C:\Users\Max\Documents\GitHub\SketchPad\SketchPad\SketchPad\obj\Release\App.baml
