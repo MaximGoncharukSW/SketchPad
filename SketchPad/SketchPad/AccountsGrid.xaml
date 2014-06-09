@@ -5,6 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              >
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Img/blur_note_glasses.jpg"/>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="241*"/>
             <ColumnDefinition Width="339*"/>
@@ -16,13 +19,13 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.ColumnSpan="2" x:Name="spWeather"/>
-        <TextBlock Grid.Row="1" Text="Выберите учетную запись:" Margin="20,24,0,24" VerticalAlignment="Center" FontSize="20" FontWeight="Medium" Height="31"/>
-        <ListBox Grid.Row="2" x:Name="lstAccount" Margin="5" SelectionChanged="lstAccount_SelectionChanged"/>
+        <TextBlock Grid.Row="1" Text="Выберите учетную запись:" Margin="20,0,0,0" VerticalAlignment="Center" FontSize="20" FontWeight="Medium" Height="31" HorizontalAlignment="Left"/>
+        <ListBox Grid.Row="2" x:Name="lstAccount" Margin="10,5,0,5" SelectionChanged="lstAccount_SelectionChanged"/>
         <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Button x:Name="btnAdd" Content="Добавить запись" Margin="10" FontSize="14" FontWeight="ExtraLight" Click="btnAdd_Click"/>
             <Button x:Name="btnDelete" Content="Удалить запись" Margin="10" FontSize="14" FontWeight="ExtraLight" Click="btnDelete_Click"/>
         </StackPanel>
-        <GroupBox Grid.Row="2" Grid.Column="1" Margin="5" Header="Информация" FontStyle="Italic" FontSize="14"  HorizontalContentAlignment="Center" HorizontalAlignment="Stretch">
+        <GroupBox Grid.Row="2" Grid.Column="1" Margin="0,5" Header="Информация" FontStyle="Italic" FontSize="14"  HorizontalContentAlignment="Left" HorizontalAlignment="Center">
             <Grid Margin="5,10,5,5">
                 <Grid.RowDefinitions>
                     <RowDefinition x:Name="Url"/>
